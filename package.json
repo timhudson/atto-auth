@@ -1,0 +1,13 @@
+{
+  "name": "atto-auth",
+  "description": "Tiny auth service based on JWT and email",
+  "version": "1.0.0",
+  "dependencies": {
+    "jsonwebtoken": "^7.1.9",
+    "micro": "^6.1.0",
+    "nodemailer": "^2.6.4"
+  },
+  "scripts": {
+    "start": "micro -p 3000"
+  }
+}
